@@ -53,4 +53,56 @@ fun main() {
     entrees.clear()
     println("Entress: $entrees")
     println("Empty? ${entrees.isEmpty()}")
+
+//     while loop
+	println("\nLoops:")
+	var total = 0
+    var index = 0
+	while (index < numbers.size) {
+        total += numbers[index]
+        index++
+    }
+    println("Total by while: $total")
+    
+    total = 0
+    for (number in numbers) {
+        total += number
+    }
+    println("Total by for: $total")
+    
+//     other samples of for loop
+	print("A list of chars: ")
+	for (item in 'b'..'g') print(item)
+    print("\nA list of numbers: ")
+    for (item in 1..5) print(item)
+    print("\nA list of numbers in reverse: ")
+    for (item in 5 downTo 1) print(item)
+    print("\nOdd numbers: ")
+    for (item in 1..10 step 2) print(item)
+
+//     while loop
+	println("\nLoops:")
+	var total = 0
+    var index = 0
+	while (index < numbers.size) {
+        total += numbers[index]
+        index++
+    }
+    println("Total by while: $total")
+    
+    total = 0
+    for (number in numbers) {
+        total += number
+    }
+    println("Total by for: $total")
+    
+//     other samples of for loop
+	print("A list of chars: ")
+	for (item in 'b'..'g') print(item)
+    print("\nA list of numbers: ")
+    for (item in 1..5) print(item)
+    print("\nA list of numbers in reverse: ")
+    for (item in 5 downTo 1) print(item)
+    print("\nOdd numbers: ")
+    for (item in 1..10 step 2) print(item)
 }
