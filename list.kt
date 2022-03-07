@@ -1,7 +1,7 @@
 fun main() {
     println("Hello, list!!!")
     
-//     unmutable list
+//  unmutable list
     println("\nUnmutable list:")
     val numbers: List<Int> = listOf(1,2,3,4,5,6)
     val nums = listOf(6,5,4,3,2,1)
@@ -17,11 +17,11 @@ fun main() {
     println("Reversed: $numbers -> ${numbers.reversed()}")
     println("Sorted: $nums -> ${nums.sorted()}")
     
-//     cannot change unmutable list
-//     numbers.add(7)
-//     numbers[0] = 8
+//  cannot change unmutable list
+//  numbers.add(7)
+//  numbers[0] = 8
 	
-//     mutable list
+//  mutable list
     println("\nMutable list:")
     val entrees = mutableListOf<String>()
     val entrees2: MutableList<String> = mutableListOf()
@@ -36,13 +36,13 @@ fun main() {
     println("Add list: ${entrees.addAll(moreItems)}")
     println("Entrees: $entrees")
     
-//     cannot add item with incorrect or different type
-//     entrees.add(10)
+//  cannot add item with incorrect or different type
+//  entrees.add(10)
 
 	println("Remove spaghetti: ${entrees.remove("spaghetti")}")
     println("Entrees: $entrees")
     
-//     remove some item does not exist
+//  remove some item does not exist
     println("Remove rice: ${entrees.remove("rice")}")
     println("Entrees: $entrees")
     
@@ -53,8 +53,8 @@ fun main() {
     entrees.clear()
     println("Entress: $entrees")
     println("Empty? ${entrees.isEmpty()}")
-
-//     while loop
+    
+//  while loop
 	println("\nLoops:")
 	var total = 0
     var index = 0
@@ -70,7 +70,7 @@ fun main() {
     }
     println("Total by for: $total")
     
-//     other samples of for loop
+// 	other samples of for loop
 	print("A list of chars: ")
 	for (item in 'b'..'g') print(item)
     print("\nA list of numbers: ")
@@ -79,30 +79,91 @@ fun main() {
     for (item in 5 downTo 1) print(item)
     print("\nOdd numbers: ")
     for (item in 1..10 step 2) print(item)
+    
+// 	a sample project
+	println("\n\nA sample project:")
+	val noodles = Noodles()
+    val vegetables1 = Vegetables("Cabbage","Sprouts","Onion")
+    val vegetables2 = Vegetables()
+    println(noodles)
+    println(vegetables1)
+    println(vegetables2)
+    
+    val orderList = mutableListOf<Order>()
+    
+//  add an item to an order
+    val order1 = Order(1)
+    order1.addItem(Noodles())
+    orderList.add(order1)
+    
+//  add mutiple items inddividually
+    val order2 = Order(2)
+    order2.addItem(Noodles())
+    order2.addItem(Vegetables())
+    orderList.add(order2)
+    
+//  add a list of items at one time
+    val order3 = Order(3)
+    val items = listOf(Noodles(), Vegetables("Carrots","Beans","Celery"))
+    order3.addAll(items)
+    orderList.add(order3)
+    
+//  use builder pattern
+    val order4 = Order(4).addItem(Noodles()).addItem(Vegetables("Cabbage","Onion"))
+    orderList.add(order4)
+    
+//  create and add order directly
+    orderList.add(
+    	Order(5)
+    		.addItem(Noodles())
+    		.addItem(Noodles())
+            .addItem(Vegetables("Spinach")))
+    
+//  print out each order
+    for (order in orderList) {
+        order.print()
+    }
+}
 
-//     while loop
-	println("\nLoops:")
-	var total = 0
-    var index = 0
-	while (index < numbers.size) {
-        total += numbers[index]
-        index++
-    }
-    println("Total by while: $total")
+//  classes for a sample project
+open class Item(val name: String, val price: Int)
     
-    total = 0
-    for (number in numbers) {
-        total += number
+class Noodles : Item("Noodles", 10) {
+    override fun toString(): String {
+        return name
     }
-    println("Total by for: $total")
+}
     
-//     other samples of for loop
-	print("A list of chars: ")
-	for (item in 'b'..'g') print(item)
-    print("\nA list of numbers: ")
-    for (item in 1..5) print(item)
-    print("\nA list of numbers in reverse: ")
-    for (item in 5 downTo 1) print(item)
-    print("\nOdd numbers: ")
-    for (item in 1..10 step 2) print(item)
+class Vegetables(vararg val toppings: String) : Item("Vegetables", 5) {
+    override fun toString(): String {
+        if (toppings.isEmpty()) {
+            return "$name Chef's choice"
+        } else {
+            return name + " : " + toppings.joinToString()
+        }
+    }
+}
+    
+class Order(val orderNumber: Int) {
+    private val itemList = mutableListOf<Item>()
+        
+    fun addItem(newItem: Item): Order {
+        itemList.add(newItem)
+        return this
+    }
+        
+    fun addAll(newItems: List<Item>): Order {
+        itemList.addAll(newItems)
+        return this
+    }
+        
+    fun print() {
+        println("\nOrder #${orderNumber}")
+        var total = 0
+        for (item in itemList) {
+            println("${item}: $${item.price}")
+            total += item.price
+        }
+        println("Total: $${total}")
+    }
 }
