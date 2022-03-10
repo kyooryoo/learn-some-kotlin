@@ -6,6 +6,7 @@
     <string name="good_service">Good (18%)</string>
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate">Calculate</string>
+    <!-- notice how string is formatted as follows -->
     <string name="tip_amount">Tip Amount: %s</string>
     <string name="how_was_the_service">How was the service?</string>
 </resources>
