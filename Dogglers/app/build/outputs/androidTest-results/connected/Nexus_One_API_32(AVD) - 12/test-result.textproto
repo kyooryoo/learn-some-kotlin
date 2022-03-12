@@ -1,0 +1,328 @@
+# 2022-03-12T12:50:22.567Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_button_is_displayed"
+    start_time {
+      seconds: 1647089409
+      nanos: 723000000
+    }
+    end_time {
+      seconds: 1647089411
+      nanos: 477000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-grid_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_horizontal_list_button_displays_horizontal_list"
+    start_time {
+      seconds: 1647089411
+      nanos: 761000000
+    }
+    end_time {
+      seconds: 1647089413
+      nanos: 704000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-clicking_horizontal_list_button_displays_horizontal_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_grid_list_button_displays_grid_list"
+    start_time {
+      seconds: 1647089414
+      nanos: 12000000
+    }
+    end_time {
+      seconds: 1647089415
+      nanos: 733000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-clicking_grid_list_button_displays_grid_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_vertical_list_button_displays_vertical_list"
+    start_time {
+      seconds: 1647089416
+      nanos: 45000000
+    }
+    end_time {
+      seconds: 1647089417
+      nanos: 811000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-clicking_vertical_list_button_displays_vertical_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_list_button_is_displayed"
+    start_time {
+      seconds: 1647089418
+      nanos: 61000000
+    }
+    end_time {
+      seconds: 1647089419
+      nanos: 503000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-horizontal_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_list_button_is_displayed"
+    start_time {
+      seconds: 1647089419
+      nanos: 677000000
+    }
+    end_time {
+      seconds: 1647089421
+      nanos: 84000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/logcat-com.example.dogglers.ButtonTests-vertical_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/user/Workspace/learn-some-kotlin/Dogglers/app/build/outputs/androidTest-results/connected/Nexus_One_API_32(AVD) - 12/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

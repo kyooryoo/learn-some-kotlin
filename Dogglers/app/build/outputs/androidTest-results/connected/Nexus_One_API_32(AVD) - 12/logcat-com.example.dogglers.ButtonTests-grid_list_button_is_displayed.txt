@@ -1,0 +1,244 @@
+03-12 20:50:06.016   850   871 I TestRunner: started: grid_list_button_is_displayed(com.example.dogglers.ButtonTests)
+03-12 20:50:06.035   850   871 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-12 20:50:06.051   850   871 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10153; state: DISABLED
+03-12 20:50:06.115  1068  1140 D SplashScreenView: Build android.window.SplashScreenView{d12520d V.E...... ......ID 0,0-0,0}
+03-12 20:50:06.115  1068  1140 D SplashScreenView: Icon: view: null drawable: null size: 0
+03-12 20:50:06.115  1068  1140 D SplashScreenView: Branding: view: android.view.View{8db15c2 G.ED..... ......I. 0,0-0,0 #10204a9 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+03-12 20:50:06.131   591  2705 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.133   591  2705 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.135   591  2705 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.136   591  2705 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.138   591  2705 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.139   591  2705 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.139   591  2705 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.139   591  2705 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.140   591  2705 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.141   591  2705 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.144   591  2705 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.145   591  2705 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.146   591  2705 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.146   591  2705 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.146   591  2705 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.147   591  2705 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.147   591  2705 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.148   591  2705 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.149   591  2705 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.150   591  2705 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.151  9145 32193 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+03-12 20:50:06.172  9145 32193 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+03-12 20:50:06.201   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3fea71000 0x3febe8000]
+03-12 20:50:06.207   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff13d000 0x3ff2b4000]
+03-12 20:50:06.241   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff42b000 0x3ff5a2000]
+03-12 20:50:06.257  1912  1912 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+03-12 20:50:06.261  1397  2253 D EGL_emulation: app_time_stats: avg=1633.42ms min=1633.42ms max=1633.42ms count=1
+03-12 20:50:06.269   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: PRE_ON_CREATE
+03-12 20:50:06.276   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.277   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.277   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.285   850   876 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+03-12 20:50:06.293   850   876 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+03-12 20:50:06.299   850   876 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+03-12 20:50:06.339   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: CREATED
+03-12 20:50:06.340   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.340   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.341   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.354   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: STARTED
+03-12 20:50:06.365   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.366   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.366   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.378  2209  2209 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=36, right=0, bottom=0}
+03-12 20:50:06.378  2209  2209 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=36, right=0, bottom=0}
+03-12 20:50:06.404   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: RESUMED
+03-12 20:50:06.404   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.405   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.405   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.414   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: PAUSED
+03-12 20:50:06.415   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.415   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.416   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.419   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.420   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.421   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.421   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.421   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.424   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.424   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.425   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.426   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.426   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.427   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.428   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:06.556   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: PRE_ON_CREATE
+03-12 20:50:06.557   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.559   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-12 20:50:06.560   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.811   850   850 W xample.doggler: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+03-12 20:50:06.812   850   850 W xample.doggler: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+03-12 20:50:06.823   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: CREATED
+03-12 20:50:06.823   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.824   850   850 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.MainActivity@b531157
+03-12 20:50:06.824   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.830   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: STARTED
+03-12 20:50:06.830   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.831   850   850 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.MainActivity@b531157
+03-12 20:50:06.832   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.836   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: RESUMED
+03-12 20:50:06.837   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.838   850   850 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.MainActivity@b531157
+03-12 20:50:06.840   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.880   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: STOPPED
+03-12 20:50:06.881   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.882   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:06.883   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:06.908   850   871 D EventInjectionStrategy: Creating injection strategy with input manager.
+03-12 20:50:06.909   850   871 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+03-12 20:50:06.909   850   871 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+03-12 20:50:06.911   850   871 W xample.doggler: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+03-12 20:50:06.939  1068  1143 D EGL_emulation: app_time_stats: avg=6893.51ms min=6893.51ms max=6893.51ms count=1
+03-12 20:50:06.940   850   874 D HostConnection: createUnique: call
+03-12 20:50:06.941   850   874 D HostConnection: HostConnection::get() New Host Connection established 0x7f98185b2e10, tid 874
+03-12 20:50:06.965   850   874 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-12 20:50:06.970   217   217 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+03-12 20:50:06.971   850   874 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-12 20:50:06.972   850   874 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-12 20:50:06.973   850   874 D EGL_emulation: eglCreateContext: 0x7f98185b0ad0: maj 3 min 0 rcv 3
+03-12 20:50:06.982   850   874 D EGL_emulation: eglMakeCurrent: 0x7f98185b0ad0: ver 3 0 (tinfo 0x7f9a3b6ff080) (first time)
+03-12 20:50:06.994   217   217 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-12 20:50:06.995   850   874 I Gralloc4: mapper 4.x is not supported
+03-12 20:50:06.997   850   874 D HostConnection: createUnique: call
+03-12 20:50:06.998   850   874 D HostConnection: HostConnection::get() New Host Connection established 0x7f98185b1b50, tid 874
+03-12 20:50:06.999   850   874 D goldfish-address-space: allocate: Ask for block of size 0x100
+03-12 20:50:07.000   850   874 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3fbffe000 size 0x2000
+03-12 20:50:07.002   217   217 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+03-12 20:50:07.003   850   874 W Gralloc4: allocator 4.x is not supported
+03-12 20:50:07.006   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3fe8fa000 0x3fea71000]
+03-12 20:50:07.038   850   874 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-12 20:50:07.040   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff2b4000 0x3ff42b000]
+03-12 20:50:07.043   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff5a2000 0x3ff719000]
+03-12 20:50:07.121   591   623 I ActivityTaskManager: Displayed com.example.dogglers/.MainActivity: +1s60ms
+03-12 20:50:07.143   591  1605 W InputManager-JNI: Input channel object '3751736 Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+03-12 20:50:07.198  1702  1702 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3269
+03-12 20:50:07.206  1702  1702 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1947
+03-12 20:50:07.209  1702  1702 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+03-12 20:50:07.273   850   850 D IdlingResourceRegistry: All idling resources are idle.
+03-12 20:50:07.282   850   850 W xample.doggler: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+03-12 20:50:07.283   850   850 W xample.doggler: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+03-12 20:50:07.284   850   850 W xample.doggler: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+03-12 20:50:07.288   850   850 D IdlingResourceRegistry: All idling resources are idle.
+03-12 20:50:07.305   850   850 W xample.doggler: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+03-12 20:50:07.305   850   850 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+03-12 20:50:07.305   850   850 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+03-12 20:50:07.342   850   850 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=is displayed on the screen to the user}' assertion on view with id is <com.example.dogglers:id/grid_btn>
+03-12 20:50:07.365   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: PAUSED
+03-12 20:50:07.365   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.366   850   850 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.MainActivity@b531157
+03-12 20:50:07.367   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.370   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.372   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.372   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.372   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.374   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.374   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.374   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.376   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.376   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.377   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.378   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.378   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.380   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.381   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.381   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.384   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.385   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.386   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.387   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.388   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.409   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4 in: PRE_ON_CREATE
+03-12 20:50:07.409   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.412   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4
+03-12 20:50:07.412   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.427   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4 in: CREATED
+03-12 20:50:07.427   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.430   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4
+03-12 20:50:07.431   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.439   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4 in: STARTED
+03-12 20:50:07.439   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.440   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4
+03-12 20:50:07.442   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.448   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4 in: RESUMED
+03-12 20:50:07.448   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.450   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4
+03-12 20:50:07.452   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.495   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff13d000 0x3ff2b4000]
+03-12 20:50:07.500   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff42b000 0x3ff5a2000]
+03-12 20:50:07.502   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3fea71000 0x3febe8000]
+03-12 20:50:07.540   591   623 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +186ms
+03-12 20:50:07.561   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: STOPPED
+03-12 20:50:07.562   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.567   850   850 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.MainActivity@b531157
+03-12 20:50:07.568   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.571   850   850 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@b531157 in: DESTROYED
+03-12 20:50:07.571   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.572   850   850 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-12 20:50:07.573   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.582   591  1605 W InputManager-JNI: Input channel object '2827822 com.example.dogglers/com.example.dogglers.MainActivity (client)' was disposed without first being removed with the input manager!
+03-12 20:50:07.592  1702  1702 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3269
+03-12 20:50:07.593  1702  1702 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1947
+03-12 20:50:07.594  1702  1702 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+03-12 20:50:07.609   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4 in: PAUSED
+03-12 20:50:07.609   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.610   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@4c957f4
+03-12 20:50:07.610   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.617   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.617   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.618   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.619   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.619   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.620   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.620   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.620   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.620   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.621   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.621   591  1605 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.621   591  1605 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.622   591  1605 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-12 20:50:07.632   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2 in: DESTROYED
+03-12 20:50:07.632   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.633   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@36354b2
+03-12 20:50:07.633   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.642   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624 in: PRE_ON_CREATE
+03-12 20:50:07.642   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.643   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624
+03-12 20:50:07.644   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.655   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624 in: CREATED
+03-12 20:50:07.656   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.657   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624
+03-12 20:50:07.657   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.662   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624 in: STARTED
+03-12 20:50:07.662   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.663   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624
+03-12 20:50:07.664   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.668   850   850 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624 in: RESUMED
+03-12 20:50:07.669   850   850 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.670   850   850 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@16ca624
+03-12 20:50:07.670   850   850 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@8c57c03
+03-12 20:50:07.730   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3fe8fa000 0x3fea71000]
+03-12 20:50:07.734   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff2b4000 0x3ff42b000]
+03-12 20:50:07.738   380 31275 D goldfish-address-space: claimShared: Ask to claim region [0x3ff5a2000 0x3ff719000]
+03-12 20:50:07.752   591   623 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +195ms
+03-12 20:50:07.761   850   871 I TestRunner: finished: grid_list_button_is_displayed(com.example.dogglers.ButtonTests)
