@@ -18,6 +18,8 @@ package com.example.android.dessertclicker
 
 import android.content.ActivityNotFoundException
 import android.os.Bundle
+import android.os.PersistableBundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -25,6 +27,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
+
+const val TAG = "MainActivity"
+const val KEY_REVENUE = "revenue_key"
+const val KEY_DESERT_SOLD = "dessert_sold_key"
 
 class MainActivity : AppCompatActivity() {
 
@@ -61,6 +67,8 @@ class MainActivity : AppCompatActivity() {
     )
     private var currentDessert = allDesserts[0]
 
+    // only called once at the very beginning of an activity
+    // called before onStart, this is the same as onRestart
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("MainActivity", "onCreate Called")
@@ -71,12 +79,70 @@ class MainActivity : AppCompatActivity() {
             onDessertClicked()
         }
 
+        // get restored Bundle value from previous session
+        // if null, it means a new activity but not restored
+        if (savedInstanceState != null) {
+            revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
+            dessertsSold = savedInstanceState.getInt(KEY_DESERT_SOLD, 0)
+            showCurrentDessert()
+        }
+
         // Set the TextViews to the right values
         binding.revenue = revenue
         binding.amountSold = dessertsSold
 
         // Make sure the correct dessert is showing
         binding.dessertButton.setImageResource(currentDessert.imageId)
+    }
+
+    // called when activity shows up on screen
+    override fun onStart() {
+        super.onStart()
+        Log.d(TAG, "onStart Called")
+    }
+
+    // always called when activity gets focus
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "onResume Called")
+    }
+
+    // activity looses focus, no interactivity with user
+    // however, activity runs in background, this means:
+    // keep it LIGHTWEIGHT for better system performance
+    override fun onPause() {
+        super.onPause()
+        Log.d(TAG, "onPause Called")
+    }
+
+    // activity dose no show on screen
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "onStop Called")
+    }
+
+    // call when activity completely closed
+    // this happens when app configuration changes
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, "onDestroy Called")
+    }
+
+    // called between onStop and onStart
+    // called before onStart, this is the same with onCreate
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG, "onRestart Called")
+    }
+
+    // save a small amount app data after onStop for onRestart
+    // DO NOT save too much data which may impact performance
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        // save key value pair to Bundle
+        outState.putInt(KEY_REVENUE, revenue)
+        outState.putInt(KEY_DESERT_SOLD, dessertsSold)
+        Log.d(TAG, "onSaveInstanceState Called")
     }
 
     /**
@@ -122,7 +188,7 @@ class MainActivity : AppCompatActivity() {
      * Menu methods
      */
     private fun onShare() {
-        val shareIntent = ShareCompat.IntentBuilder.from(this)
+        val shareIntent = ShareCompat.IntentBuilder(this)
                 .setText(getString(R.string.share_text, dessertsSold, revenue))
                 .setType("text/plain")
                 .intent
