@@ -10,9 +10,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.cupcake.databinding.FragmentStartBinding
 import com.example.cupcake.model.OrderViewModel
 
-/**
- * This is the first screen of the Cupcake app. The user can choose how many cupcakes to order.
- */
 class StartFragment : Fragment() {
 
     // Binding object instance corresponding to the fragment_start.xml layout
