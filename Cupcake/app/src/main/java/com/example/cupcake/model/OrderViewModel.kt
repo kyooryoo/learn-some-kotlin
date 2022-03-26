@@ -16,18 +16,19 @@ class OrderViewModel : ViewModel() {
     val quantity: LiveData<Int> = _quantity
 
     private val _flavor = MutableLiveData<String>()
-    val flavor : LiveData<String> = _flavor
+    val flavor: LiveData<String> = _flavor
 
-    val dateOptions: List<String> = getPickupOptions()
+    lateinit var dateOptions: List<String>
     private val _date = MutableLiveData<String>()
-    val date : LiveData<String> = _date
+    val date: LiveData<String> = _date
 
     private val _price = MutableLiveData<Double>()
-    val price : LiveData<String> = Transformations.map(_price) {
+    val price: LiveData<String> = Transformations.map(_price) {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
     init {
+        setPickupOptions()
         resetOrder()
     }
 
@@ -38,6 +39,7 @@ class OrderViewModel : ViewModel() {
 
     fun setFlavor(desiredFlavor: String) {
         _flavor.value = desiredFlavor
+        setPickupOptions()
     }
 
     fun setDate(pickupDate: String) {
@@ -57,21 +59,32 @@ class OrderViewModel : ViewModel() {
     }
 
     private fun updatePrice() {
-        var calculatedPrice = (quantity.value ?:0) * PRICE_PER_CUPCAKE
+        var calculatedPrice = (quantity.value ?: 0) * PRICE_PER_CUPCAKE
         if (dateOptions[0] == _date.value) {
             calculatedPrice += PRICE_FOR_SAME_DAY_PICKUP
         }
         _price.value = calculatedPrice
     }
 
-    private fun getPickupOptions(): List<String> {
+    private fun setPickupOptions() {
         val options = mutableListOf<String>()
-        val formatter = SimpleDateFormat("E MMM d", Locale.getDefault())
+        val formatter = SimpleDateFormat("E, MMM d, yyyy", Locale.getDefault())
         val calendar = Calendar.getInstance()
-        repeat(4) {
-            options.add(formatter.format(calendar.time))
-            calendar.add(Calendar.DATE, 1)
+        if (flavor.value.toString() == "Special Flavor (ONLY Weekend)") {
+            while (options.size < 4) {
+                if (calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY ||
+                    calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY
+                ) {
+                    options.add(formatter.format(calendar.time))
+                }
+                calendar.add(Calendar.DATE, 1)
+            }
+        } else {
+            repeat(4) {
+                options.add(formatter.format(calendar.time))
+                calendar.add(Calendar.DATE, 1)
+            }
         }
-        return options
+        this.dateOptions = options
     }
 }

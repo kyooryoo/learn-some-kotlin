@@ -27,11 +27,7 @@ import com.example.cupcake.model.OrderViewModel
 
 class FlavorFragment : Fragment() {
 
-    // Binding object instance corresponding to the fragment_flavor.xml layout
-    // This property is non-null between the onCreateView() and onDestroyView() lifecycle callbacks,
-    // when the view hierarchy is attached to the fragment.
     private var binding: FragmentFlavorBinding? = null
-
     private val sharedViewModel: OrderViewModel by activityViewModels()
 
     override fun onCreateView(
