@@ -69,15 +69,42 @@
             </RadioGroup>
 
             <View
-                android:id="@+id/divider"
+                android:id="@+id/divider1"
+                style="@style/Widget.Cupcake.Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_between_elements"
+                android:layout_marginBottom="@dimen/margin_between_elements"
+                app:layout_constraintTop_toBottomOf="@id/date_options"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_label"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_elements"
+                android:layout_marginStart="@dimen/margin_between_elements"
+                android:hint="@string/customer_name"
+                app:layout_constraintTop_toBottomOf="@id/divider1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_value_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:id="@+id/divider2"
                 style="@style/Widget.Cupcake.Divider"
                 android:layout_width="0dp"
                 android:layout_height="1dp"
-                android:layout_marginTop="@dimen/side_margin"
+                android:layout_marginTop="@dimen/margin_between_elements"
                 android:layout_marginBottom="@dimen/side_margin"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/date_options" />
+                app:layout_constraintTop_toBottomOf="@id/name_label" />
 
             <TextView
                 android:id="@+id/subtotal"
@@ -87,7 +114,7 @@
                 android:layout_marginTop="@dimen/side_margin"
                 android:text="@{@string/subtotal_price(viewModel.price)}"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/divider"
+                app:layout_constraintTop_toBottomOf="@id/divider2"
                 tools:text="Subtotal $5.00" />
 
             <Button

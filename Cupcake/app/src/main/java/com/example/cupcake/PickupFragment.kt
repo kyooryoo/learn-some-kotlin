@@ -57,6 +57,9 @@ class PickupFragment : Fragment() {
      * Navigate to the next screen to see the order summary.
      */
     fun goToNextScreen() {
+        var customerName = binding?.nameValueEditText?.text.toString()
+        if (customerName == "") { customerName = "there" }
+        sharedViewModel.setName(customerName)
         findNavController().navigate(R.id.action_pickupFragment_to_summaryFragment)
     }
 
