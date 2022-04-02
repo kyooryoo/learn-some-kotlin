@@ -21,18 +21,17 @@ class PhotoGridAdapter : ListAdapter<MarsPhoto, PhotoGridAdapter.MarsPhotoViewHo
         override fun areItemsTheSame(oldItem: MarsPhoto, newItem: MarsPhoto): Boolean {
             return oldItem.id == newItem.id
         }
-
         override fun areContentsTheSame(oldItem: MarsPhoto, newItem: MarsPhoto): Boolean {
             return oldItem.imgSrcUrl == newItem.imgSrcUrl
         }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsPhotoViewHolder {
         return MarsPhotoViewHolder(GridViewItemBinding.inflate(LayoutInflater.from(parent.context)))
     }
+
     override fun onBindViewHolder(holder: MarsPhotoViewHolder, position: Int) {
-        var marsPhoto = getItem(position)
+        val marsPhoto = getItem(position)
         holder.bind(marsPhoto)
     }
 }
